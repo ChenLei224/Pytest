@@ -1,0 +1,7 @@
+# Task项目使用名为Task的数据结构，它是用namedtuple工厂函数生成的。
+# namedtuple是Python标准库的一部分。
+# Task用于在UI层和API层之间传递信息，作者Brian Okken用它来演示pytest的运行，以及一些常用命令行选项的用法。
+# 以下是一个Task结构：
+from collections import namedtuple
+Task = namedtuple('Task', ['summary', 'owner', 'done', 'id'])poiu
+
